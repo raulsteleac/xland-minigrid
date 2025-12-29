@@ -352,6 +352,14 @@ register(
     entry_point="xminigrid.envs.minigrid.fourrooms:FourRooms",
 )
 
+
+# FourRoomsFixed
+register(
+    id="MiniGrid-FourRoomsFixed",
+    entry_point="xminigrid.envs.minigrid.fourrooms_fixed:FourRoomsFixed",
+)
+
+
 # LockedRoom
 register(
     id="MiniGrid-LockedRoom",
